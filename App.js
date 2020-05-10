@@ -5,6 +5,7 @@ import Form from './Component/Form';
 import ParentComponent from './Component/ParentComponent';
 import RefsDemo from './Component/RefsDemo';
 import FocusInput from './Component/FocusInput';
+import FRParentInput from './Component/FRParentInput';
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
         {/* <Form /> */}
         {/* <ParentComponent /> */}
         {/* <RefsDemo /> */}
-        <FocusInput />
+        {/* <FocusInput /> */}
+        <FRParentInput />
       </div>
     );
   }
